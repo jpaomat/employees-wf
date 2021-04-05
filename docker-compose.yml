@@ -9,8 +9,8 @@ services:
             - backend
         environment:
             - MYSQL_HOST=mysql-app
-            - MYSQL_USER=employee
-            - MYSQL_PASS=789
+            - MYSQL_USER=admin
+            - MYSQL_PASS=admin
             - MYSQL_DB=apiemployees
         ports:
             - "4000:4000"
@@ -21,8 +21,8 @@ services:
             - backend
         environment:
             - MYSQL_ROOT_PASSWORD=456
-            - MYSQL_USER=employee
-            - MYSQL_PASSWORD=789
+            - MYSQL_USER=admin
+            - MYSQL_PASSWORD=admin
             - MYSQL_DATABASE=apiemployees
         container_name: mysql-app
     phpmyadmin:
