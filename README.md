@@ -1,7 +1,7 @@
 # employees-wf
 Este repositorio contiene el back en node.js/express y base de datos Mysql de la aplicaci{on de registro de empleados
 
-## Installation
+## Instalación
 ***
 A little intro about the installation.
 ```
@@ -11,13 +11,13 @@ $ docker-composer build
 $ docker-composer up
 ```
 
-## Development server
+## Server
 
 Run `docker-composer build` y `docker-composer up`, con estos comandos se generan las imagenes y los contenedores necesarios para ejecutar employees-wf  for a dev server.
 
-## Database MySQL
+## Base de datos MySQL
 
-Una vez ejecutados los comandos anteriores, para abrir la base de datos es necesario navegar a `http://localhost:3300/`, el servidor para esta se configuro en el puesto 3000, luego para poder acceder se deben ingresar las credenciales: user=admin, password:admin. Lo anterior es necesario para poder crear manualmente las tablas, el script de estas se encuentra en la raiz de esta proyecto en database/db.sql.
+Una vez ejecutados los comandos anteriores, para abrir la base de datos es necesario navegar a `http://localhost:3000/`, el servidor para esta se configuro en el puesto 3000, luego para poder acceder se deben ingresar las credenciales: `user=admin, password=admin`. Lo anterior es necesario para poder crear manualmente las tablas, el script de estas se encuentra en la raiz de esta proyecto en database/db.sql.
 
 ## Restful API
 
