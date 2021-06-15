@@ -12,7 +12,7 @@ $ docker-compose up
 
 ## Server
 
-Run `docker-composer build` y `docker-composer up`, con estos comandos se generan las imagenes y los contenedores necesarios para ejecutar employees-wf  for a dev server.
+Run `docker-composer up`, con estos comandos se generan las imagenes y los contenedores necesarios para ejecutar employees-wf  para un dev server.
 
 ## Base de datos MySQL
 
