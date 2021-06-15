@@ -7,8 +7,7 @@ A little intro about the installation.
 ```
 $ git clone https://github.com/jpaomat/employees-wf.git
 $ cd employees-wf
-$ docker-composer build
-$ docker-composer up
+$ docker-compose up
 ```
 
 ## Server
